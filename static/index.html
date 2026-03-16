@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Pousada Maori</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="header-text">
+                    <h1>Pousada Maori</h1>
+                    <p class="status">
+                        <span class="status-dot"></span>
+                        Assistente Virtual
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Messages Area -->
+        <div class="messages-container" id="messagesContainer">
+            <div class="welcome-message">
+                <div class="welcome-icon">🌺</div>
+                <h2>Bem-vindo à Pousada Maori!</h2>
+                <p>Sou seu assistente virtual. Como posso ajudar?</p>
+                <div class="quick-questions">
+                    <button class="quick-btn" onclick="sendQuickQuestion('Qual o horário do check-in?')">
+                        📅 Check-in
+                    </button>
+                    <button class="quick-btn" onclick="sendQuickQuestion('Qual a senha do Wi-Fi?')">
+                        📶 Wi-Fi
+                    </button>
+                    <button class="quick-btn" onclick="sendQuickQuestion('Que horas serve café?')">
+                        ☕ Café
+                    </button>
+                    <button class="quick-btn" onclick="sendQuickQuestion('Quais praias tem perto?')">
+                        🏖️ Praias
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-container">
+            <form id="chatForm" onsubmit="sendMessage(event)">
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Digite sua pergunta..."
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit" id="sendButton">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

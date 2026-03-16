@@ -1,0 +1,14 @@
+# Core dependencies
+flask==3.0.0
+flask-cors==4.0.0
+spacy==3.7.2
+
+# NLP Model (Portuguese)
+# Run after pip install: python -m spacy download pt_core_news_md
+
+# Utilities
+python-dateutil==2.8.2
+unidecode==1.3.7
+
+# Production server
+gunicorn==21.2.0

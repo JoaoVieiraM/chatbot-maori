@@ -1,0 +1,118 @@
+{
+  "pousada": {
+    "nome": "Pousada Maori",
+    "localizacao": "São Sebastião - SP"
+  },
+  "checkin": {
+    "horario": "14h às 21h",
+    "horario_inicio": "14:00",
+    "horario_fim": "21:00",
+    "observacao": "Check-in após 21h requer pagamento integral antecipado"
+  },
+  "checkout": {
+    "horario": "até às 11h",
+    "horario_limite": "11:00",
+    "instrucao": "Deixe as chaves na recepção"
+  },
+  "wifi": {
+    "rede": "Pousada Maori",
+    "senha": "pousada007",
+    "disponibilidade": "Disponível em toda a pousada"
+  },
+  "cafe_manha": {
+    "horario": "7h às 9:30h",
+    "horario_inicio": "07:00",
+    "horario_fim": "09:30",
+    "importante": "Reservas via Booking.com não incluem café da manhã no valor",
+    "local": "Área comum da pousada"
+  },
+  "quarto": {
+    "comodidades": [
+      "SmartTV com streaming",
+      "Frigobar",
+      "Ar condicionado",
+      "Roupa de cama premium",
+      "Banheiro privativo"
+    ]
+  },
+  "tomadas": {
+    "voltagem": "220V",
+    "aviso": "Todas as tomadas são 220V - traga adaptador se necessário"
+  },
+  "piscina": {
+    "horario": "10h às 21h",
+    "horario_inicio": "10:00",
+    "horario_fim": "21:00",
+    "observacao": "Verifique dias de manutenção na recepção"
+  },
+  "pets": {
+    "aceita": false,
+    "mensagem": "Não aceitamos animais de estimação. Obrigado pela compreensão"
+  },
+  "praias": [
+    {
+      "nome": "Boicucanga Beach",
+      "distancia": "450 m",
+      "tempo_pe": "6 minutos a pé",
+      "tempo_carro": null,
+      "perfil": "Uma das praias com melhor infraestrutura comercial da região (shoppings, bancos, supermercados)",
+      "mar": "Mar de tombo (profundidade aumenta rápido), mas geralmente com poucas ondas",
+      "destaque": "Famosa pelo pôr do sol no mar, um dos mais bonitos do litoral norte",
+      "atividades": "Passeios de barco para as ilhas (Ilha das Couves, Montão de Trigo) e acesso a trilhas para cachoeiras (Ribeirão de Itu)",
+      "infraestrutura": "Excelente infraestrutura comercial"
+    },
+    {
+      "nome": "Brava Beach",
+      "distancia": "850 m",
+      "tempo_pe": "11 minutos a pé",
+      "tempo_carro": null,
+      "perfil": "Praia selvagem e deserta, cercada por Mata Atlântica preservada. Acesso apenas por trilha (aprox. 1 hora de caminhada com nível moderado) ou barco",
+      "mar": "Ondas fortes e agitadas, muito procurada por surfistas",
+      "destaque": "Natureza intocada e isolamento total (não há quiosques ou vendedores)",
+      "atividades": "Surf e trilha ecológica",
+      "infraestrutura": "Sem infraestrutura (praia selvagem)"
+    },
+    {
+      "nome": "Praia de Camburizinho",
+      "distancia": "2,7 km",
+      "tempo_pe": null,
+      "tempo_carro": "8 minutos de carro",
+      "perfil": "Separada da Praia de Camburi por um rio que deságua no mar. É mais tranquila e familiar que a vizinha",
+      "mar": "Águas mais calmas e rasas no canto esquerdo (próximo ao rio), ideal para crianças",
+      "destaque": "O encontro do rio com o mar e o visual do ilhote em frente à praia",
+      "atividades": "Praia familiar, ideal para crianças",
+      "infraestrutura": "Bons hotéis e alguns quiosques/restaurantes pé na areia"
+    },
+    {
+      "nome": "Praia de Camburi",
+      "distancia": "3,4 km",
+      "tempo_pe": null,
+      "tempo_carro": "10 minutos de carro",
+      "perfil": "Praia badalada, frequentada por um público jovem e sofisticado",
+      "mar": "Mar agitado com boas ondas, excelente para o surf",
+      "destaque": "Gastronomia de alto nível (alguns dos melhores restaurantes do litoral norte estão aqui) e vida noturna",
+      "atividades": "Surf, gastronomia e vida noturna",
+      "infraestrutura": "Excelente, com muitas opções de hospedagem e serviços"
+    },
+    {
+      "nome": "Maresias Beach",
+      "distancia": "6 km",
+      "tempo_pe": null,
+      "tempo_carro": "15 minutos de carro",
+      "perfil": "A praia mais famosa e cosmopolita de São Sebastião",
+      "mar": "Famosa mundialmente pelas ondas tubulares (palco de campeonatos internacionais de surf)",
+      "destaque": "Vida noturna agitada (baladas famosas) e o 'Canto do Moreira' (melhor ponto para surf)",
+      "atividades": "Surf profissional, baladas, gastronomia",
+      "infraestrutura": "Completa, com hotéis de luxo, pousadas, bares e restaurantes variados"
+    }
+  ],
+  "contato": {
+    "recepcao": "Disponível na recepção da pousada",
+    "emergencia": "Entre em contato com a recepção"
+  },
+  "reservas": {
+    "plataforma": "Booking.com",
+    "url": "https://www.booking.com/hotel/br/maori-pousada.pt-br.html",
+    "mensagem": "Faça sua próxima reserva pelo Booking.com e avalie sua experiência!"
+  }
+}
